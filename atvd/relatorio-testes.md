@@ -65,3 +65,42 @@ Cliente: 10
 **Print da execução:**
 
 ![Print do teste 1.3](./imagens/teste-1-3.png)
+
+
+## Questão 2 - Verificação de fila palíndroma
+
+**Arquivo testado:** `questao-2.c`
+
+### Teste 2.1 - Fila palíndroma
+
+**Objetivo do teste:** validar se o programa identifica corretamente uma fila que forma um palíndromo.
+
+**Entradas utilizadas:**
+
+```text
+Quantidade: 5
+Fila: 4 8 6 8 4
+```
+
+**Resultado esperado:** o programa deve informar que a fila forma um palíndromo.
+
+**Print da execução:**
+
+![Print do teste 2.1](./imagens/teste-2-1.png)
+
+### Teste 2.2 - Fila não palíndroma
+
+**Objetivo do teste:** validar se o programa identifica corretamente uma fila que não forma um palíndromo.
+
+**Entradas utilizadas:**
+
+```text
+Quantidade: 4
+Fila: 9 2 5 1
+```
+
+**Resultado esperado:** o programa deve informar que a fila não forma um palíndromo.
+
+**Print da execução:**
+
+![Print do teste 2.2](./imagens/teste-2-2.png)
