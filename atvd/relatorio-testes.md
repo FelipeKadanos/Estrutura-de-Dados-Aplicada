@@ -1,0 +1,67 @@
+# Relatório de Testes
+
+## Dados da atividade
+
+- **Atividade:** Filas e Pilhas
+- **Arquivos testados:** `questao-1.c`, `questao-2.c`, `questao-3.c`, `questao-4.c` e `questao-5.c`
+- **Aluno:** Felipe Eduardo Kadanos
+- **Rgm:** 41277473
+- **Data:** 15/05/2026
+
+## Objetivo
+
+Este relatório apresenta os testes realizados para comprovar a execução das funcionalidades implementadas nas cinco questões da atividade. Os valores utilizados nos testes são diferentes dos exemplos do enunciado.
+
+## Questão 1 - Simulação de fila de atendimento
+
+**Arquivo testado:** `questao-1.c`
+
+### Teste 1.1 - Inserir clientes na fila
+
+**Objetivo do teste:** validar se o sistema permite inserir clientes na fila usando seus IDs.
+
+**Entrada utilizadas:**
+
+```text
+Cliente: 10
+```
+
+**Resultado esperado:** os clientes devem ser adicionados na ordem informada.
+
+**Print da execução:**
+
+![Print do teste 1.1](./imagens/teste-1-1.png)
+
+### Teste 1.2 - Mostrar próximo cliente e tamanho da fila
+
+**Objetivo do teste:** validar se o primeiro cliente inserido aparece como próximo atendimento e se o tamanho da fila está correto.
+
+**Entradas utilizadas:**
+
+```text
+3 - Mostrar próximo cliente
+4 - Mostrar tamanho da fila
+```
+
+**Resultado esperado:** o próximo cliente deve ser `10` e o tamanho da fila deve ser `1`.
+
+**Print da execução:**
+
+![Print do teste 1.2](./imagens/teste-1-2.png)
+
+### Teste 1.3 - Atender cliente
+
+**Objetivo do teste:** validar se o cliente atendido é removido da fila.
+
+**Entradas utilizadas:**
+
+```text
+2 - Atender cliente
+3 - Mostrar próximo cliente
+```
+
+**Resultado esperado:** o cliente `10` deve ser atendido e a fila deve estar vazia.
+
+**Print da execução:**
+
+![Print do teste 1.3](./imagens/teste-1-3.png)
