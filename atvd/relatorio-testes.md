@@ -104,3 +104,46 @@ Fila: 9 2 5 1
 **Print da execução:**
 
 ![Print do teste 2.2](./imagens/teste-2-2.png)
+
+
+## Questão 3 - Pilha com mínimo
+
+**Arquivo testado:** `questao-3.c`
+
+### Teste 3.1 - Empilhar valores e consultar menor elemento
+
+**Objetivo do teste:** validar se a pilha retorna o menor elemento em tempo real após operações de empilhar.
+
+**Entradas utilizadas:**
+
+```text
+1 - Push/Empilhar: 9
+1 - Push/Empilhar: 4
+1 - Push/Empilhar: 12
+3 - getMin
+```
+
+**Resultado esperado:** o menor elemento atual deve ser `4`.
+
+**Print da execução:**
+
+![Print do teste 3.1](./imagens/teste-3-1.png)
+
+### Teste 3.2 - Desempilhar e consultar menor elemento
+
+**Objetivo do teste:** validar se o menor elemento continua correto após operações de desempilhar.
+
+**Entradas utilizadas:**
+
+```text
+2 - Pop/Desempilhar
+3 - getMin
+2 - Pop/Desempilhar
+3 - getMin
+```
+
+**Resultado esperado:** após remover `12`, o menor deve continuar `4`; após remover `4`, o menor deve ser `9`.
+
+**Print da execução:**
+
+![Print do teste 3.2](./imagens/teste-3-2.png)
