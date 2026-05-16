@@ -184,3 +184,48 @@ Entrada: ABCDE
 **Print da execução:**
 
 ![Print do teste 4.2](./imagens/teste-4-2.png)
+
+
+## Questão 5 - Histórico de navegação
+
+**Arquivo testado:** `questao-5.c`
+
+### Teste 5.1 - Visitar páginas e voltar
+
+**Objetivo do teste:** validar se a pilha de voltar armazena corretamente as páginas anteriores.
+
+**Entradas utilizadas:**
+
+```text
+1 - VISITAR Home
+1 - VISITAR Produtos
+1 - VISITAR Contato
+2 - VOLTAR
+2 - VOLTAR
+```
+
+**Resultado esperado:** ao voltar uma vez, a página atual deve ser `Produtos`; ao voltar novamente, deve ser `Home`.
+
+**Print da execução:**
+
+![Print do teste 5.1](./imagens/teste-5-1.png)
+
+### Teste 5.2 - Avançar após voltar
+
+**Objetivo do teste:** validar se a pilha de avançar permite retornar para a próxima página após usar a opção voltar.
+
+**Entradas utilizadas:**
+
+```text
+3 - AVANCAR
+```
+
+**Resultado esperado:** após estar em `Home`, a opção avançar deve levar para `Produtos`.
+
+**Print da execução:**
+
+![Print do teste 5.2](./imagens/teste-5-2.png)
+
+## Conclusão
+
+Os testes acima foram planejados para validar as funcionalidades principais da atividade.
