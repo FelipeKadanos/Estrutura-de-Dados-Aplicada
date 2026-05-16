@@ -147,3 +147,40 @@ Fila: 9 2 5 1
 **Print da execução:**
 
 ![Print do teste 3.2](./imagens/teste-3-2.png)
+
+
+## Questão 4 - Remoção de duplicatas consecutivas
+
+**Arquivo testado:** `questao-4.c`
+
+### Teste 4.1 - Remover duplicatas consecutivas de uma string
+
+**Objetivo do teste:** validar se caracteres repetidos consecutivamente são removidos usando pilha.
+
+**Entradas utilizadas:**
+
+```text
+Entrada: BBBCCDAAAEE
+```
+
+**Resultado esperado:** a saída deve ser `BCDAE`.
+
+**Print da execução:**
+
+![Print do teste 4.1](./imagens/teste-4-1.png)
+
+### Teste 4.2 - String sem duplicatas consecutivas
+
+**Objetivo do teste:** validar se uma string sem duplicatas consecutivas permanece igual.
+
+**Entradas utilizadas:**
+
+```text
+Entrada: ABCDE
+```
+
+**Resultado esperado:** a saída deve ser `ABCDE`.
+
+**Print da execução:**
+
+![Print do teste 4.2](./imagens/teste-4-2.png)
